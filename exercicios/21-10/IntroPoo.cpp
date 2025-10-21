@@ -24,5 +24,21 @@ int main(){
     MangaRosa.dieta = "Herbívoro";
     MangaRosa.pesoEmKg = 667.0;
 
+    Animal NovoAnimal;
+    cout << "Digite o nome do animal: " << endl;
+    getline(cin, NovoAnimal.nome);
+    cout << "Digite a especie do animal: " << endl;
+    getline(cin, NovoAnimal.especie);
+    cout << "Qual a dieta do animal? : " << endl;
+    getline(cin, NovoAnimal.dieta);
+    cout << "Por último, informe o peso do animal: ";
+    cin >> NovoAnimal.pesoEmKg;
+
+    cout << "=== INFORMAÇÕES SOBRE O ANIMAL INFORMADO: ===" << endl;
+    cout << "Nome: " << NovoAnimal.nome << endl;
+    cout << "Espécie: " << NovoAnimal.especie << endl;
+    cout << "Dieta: " << NovoAnimal.dieta << endl;
+    cout << "Peso(kg): " << NovoAnimal.pesoEmKg << endl;
+
     cout << "O cavalo " << MangaRosa.nome << " pesa: "<< MangaRosa.pesoEmKg << " kg" << endl;
 }
