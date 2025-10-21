@@ -27,7 +27,7 @@ int main() {
         contagemNotas++;
     }
 
-    if (count > 0) {
+    if (contagemNotas > 0) {
         cout << "Média das notas: " << (somaNotas / contagemNotas) << endl;
     } else {
         cout << "Nenhuma nota foi digitada" << endl;
