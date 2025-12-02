@@ -1,0 +1,14 @@
+1 - Um vetor é um tipo de estrutura de dados que armazena 
+dados do mesmo tipo, e de tamanho fixo.
+
+2 - Quando crio um vetor com valor fixo e inicializo ele com valor
+fixo, eu só reservo espaços na memoria pra posteriormente armazenar
+os dados do tipo do vetor. E quando inicializo ele com valores espe-
+cíficos, a memória é alocada com o tamanho sendo igual a quantidade
+de dados que for passado, e cada posição recebe o valor declarado.
+
+3 - Índice é simplesmente o endereço de cada posição do vetor,
+o número que tu usa pra acessar um elemento específico. O intervalo
+válido para um vetor int notas[10] é de 0 a 9, pois o índice de um array
+sempre começa em 0.
+
