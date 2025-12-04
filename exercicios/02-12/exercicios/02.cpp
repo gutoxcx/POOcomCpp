@@ -24,16 +24,16 @@ int main()
     for (int i = 1; i < 8; i++) {
         if (vetor[i] > maior) {
             maior = vetor[i];
-            posMaior = i;
+            posicaoMaior = i;
         }
         if (vetor[i] < menor) {
             menor = vetor[i];
-            posMenor = i;
+            posicaoMenor = i;
         }
     }
 
-    cout << "\nMaior valor: " << maior << " na posição " << posMaior << endl;
-    cout << "Menor valor: " << menor << " na posição " << posMenor << endl;
+    cout << "\nMaior valor: " << maior << " na posição " << posicaoMaior << endl;
+    cout << "Menor valor: " << menor << " na posição " << posicaoMenor << endl;
 
     return 0;
 }
